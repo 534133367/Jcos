@@ -1,0 +1,63 @@
+
+function login(){
+	this.go=$(".ul_right").find(".li_right");
+	this._login=$("#login");
+	this._rest=$("#register");
+	this.off1=$("#login").find(".cha");
+	this.off2=$("#register").find(".cha");
+	this.to_login=$("#register").find(".head").find("p").find("a");
+	this.to_regis=$("#login").find(".right").find("a");
+	this.bu=$("#bu");
+}
+
+$.extend(login.prototype,{
+	init:function(){
+		this.go.on("click",$.proxy(this.show,this));
+		this.to_regis.on("click",$.proxy(this.show2,this));
+		this.to_login.on("click",$.proxy(this.show3,this));
+		this.off1.on("click",$.proxy(this.hide1,this));
+		this.off2.on("click",$.proxy(this.hide2,this));
+	},
+	show:function(){
+		this._login.css("display","block");
+		this._login.animate({
+			"opacity":1
+		},300)
+		this.bu.css("display","block");
+	},
+	show2:function(){
+		this._login.css("display","none");
+		this._login.animate({
+			"opacity":0
+		},300)
+		this._rest.css("display","block");
+		this._rest.animate({
+			"opacity":1
+		},300)
+	},
+	show3:function(){
+		this._rest.css("display","none");
+		this._rest.animate({
+			"opacity":0
+		},300)
+		this._login.css("display","block");
+		this._login.animate({
+			"opacity":1
+		},300)
+	},
+	hide1:function(){
+		this._login.css("display","none");
+		this._login.animate({
+			"opacity":0
+		},300)
+		this.bu.css("display","none");
+	},
+	hide2:function(){
+		this._rest.css("display","none");
+		this._rest.animate({
+			"opacity":0
+		},300)
+		this.bu.css("display","none");
+	}
+});
+new login().init();

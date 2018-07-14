@@ -1,0 +1,413 @@
+
+#register{
+	width: 734px;
+	height: 615px;
+	position: absolute;
+	padding: 50px 50px 50px 50px;
+	background: white;
+	z-index: 4;
+	left: 50%;
+	transform: translateX(-50%);
+	font-size: 14px;
+	top: 50px;
+	display: none;
+	opacity: 0;
+}
+#register .cha{
+	cursor: pointer;
+	position: absolute;
+	top: 6px;
+	right: 18px;
+	font-size: 30px;
+	font-weight: 900;
+	color: black;
+}
+#register .head{
+	margin-bottom: 36px;
+	overflow: hidden;
+}
+#register .head h1{
+	font-size: 28px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+	font-family: Helvetica;
+}
+#register .head p{
+	font-size: 14px
+	color: black;
+}
+#register .head a{
+	font-size: 14px;
+	color:black;
+	text-decoration: underline;
+}
+#register .box .top{
+	margin-bottom: 20px;
+}
+#register .box .top span{
+	font-size: 14px;
+	color: black;
+}
+#register .box .top .name{
+	margin-right: 16px;
+}
+#register .box .top .man{
+	margin-right: 30px;
+}
+#register .box .top .radio{
+	margin: 0;
+	display: inline-block;
+	vertical-align: middle;
+}
+#register .box .top span i{
+	color: red;
+}
+#register .box .top ._right{
+	float: right;
+}
+#register .box .form{
+	height: 320px;
+	
+}
+#register .box .form form{
+	height: 320px;
+	width: 346px;
+	float: left;
+}
+#register .box .form form:nth-of-type(1){
+	margin-right: 42px;
+}
+#register .box .form form p{
+	margin-bottom: 10px;
+}
+#register .box .form form .one_o{
+	margin-bottom: 0;
+	opacity: 0;
+	color: red;
+}
+#register .box .form form .one i{
+	color: red;
+	
+}
+#register .box .form form .two_o{
+	margin-bottom: 0;
+	opacity: 0;
+	color: red;
+}
+#register .box .form form .email{
+	width: 342px;
+	height: 40px;
+	border: 1px solid #dadada;
+	text-indent: 8px;
+	font: 14px/40px "微软雅黑";
+	color: black;
+}
+#register .box .form form .safety{
+	height: 20px;
+	width: 342px;
+	border: 1px solid #dadada;
+	border-radius: 6px;
+	margin-top: 10px;
+	position: relative;
+	overflow: hidden;
+	background: #F5F5F5;
+}
+#register .box .form form .safety span:nth-of-type(1){
+	margin-left: 10px;
+	font: 12px/20px "微软雅黑";
+	
+}
+#register .box .form form .safety span:nth-of-type(2){
+	width: 6px;
+	height: 20px;
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	background: #d9534f;
+	text-align: center;
+}
+#register .box .form form .three i{
+	color: red;
+}
+#register .box .form form .num{
+	width: 114px;
+	height: 40px;
+	border: 1px solid #dadada;
+	text-indent: 8px;
+	font: 14px/40px "微软雅黑";
+	color: black;
+}
+#register .box .form .number{
+	background: #F5F5F5;
+	height: 40px;
+	width: 60px;
+	display: inline-block;
+	font: 14px/40px "微软雅黑";
+	color: black;
+	font-weight: 900;
+	margin-right: 36px;
+	margin-left: 18px;
+	text-align: center;
+}
+#register .box .form a{
+	font-size: 14px;
+	color:black;
+	text-decoration: underline;
+}
+#register .box .form .last{
+	width: 144px;
+	height: 41px;
+	background: black;
+	text-align: center;
+	display: inline-block;
+	font: 14px/40px "微软雅黑";
+	color: white;
+	margin-left: 20px;
+	cursor: pointer;
+	transition: all .5s ease;
+}
+#register .box .form .last:hover{
+	background: rgb(213, 27, 81);
+}
+#register .box .bottom{
+	overflow: hidden;
+}
+#register .box .bottom span{
+	font: 14px;
+	color: #999;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+#register .box .bottom input{
+	margin: 0;
+	display: o=inline-block;
+	vertical-align: middle;
+}
+#register .box .bottom p{
+	font: 12px/16px "微软雅黑";
+	color: #999;
+	margin-left: 16px;
+}
+#register .box .bottom .a{
+	display: block;
+	text-align: center;
+	width: 160px;
+	height: 42px;
+	background: black;
+	font: 14px/42px "微软雅黑";
+	color: white;
+	margin-top: 10px;
+	transition: all .5s ease;
+}
+
+}
+#register .box .bottom .a:hover{
+	background: rgb(213, 27, 81);
+}
+#login{
+	width: 713px;
+	height: 496px;
+	position: absolute;
+	padding: 40px 60px 40px 60px;
+	background: white;
+	z-index: 4;
+	left: 50%;
+	transform: translateX(-50%);
+	font-size: 14px;
+	color: black;
+	display: none;
+	top: 50px;
+	opacity: 0;
+}
+#login .cha{
+	position: absolute;
+	top: 6px;
+	right: 18px;
+	font-size: 30px;
+	font-weight: 900;
+	color: black;
+	cursor: pointer;
+}
+#login .left{
+	width: 380px;
+	height: 496px;
+	padding-right: 86px;
+	float: left;
+}
+#login .left h1{
+	font-size: 28px;
+	font-weight: 500;
+	margin-bottom: 30px;
+}
+#login .left form p{
+	margin-bottom: 10px;
+}
+#login .left form .one_o{
+	margin-bottom: 0;
+	opacity: 0;
+	color: red;
+}
+#login .left form .one i{
+	color: red;
+	
+}
+#login .left form .two i{
+	color: red;
+}
+#login .left form .two_o{
+	margin-bottom: 0;
+	opacity: 0;
+	color: red;
+}
+#login .left form .email{
+	width: 339px;
+	height: 28px;
+	padding: 5px 30px 5px 9px;
+	border: 1px solid #dadada;
+	font: 14px/40px "微软雅黑";
+	color: black;
+}
+#login .left form .email .put{
+	display: inline-block;
+	vertical-align: middle;
+	border: 0;
+	margin-bottom: 13px;
+}
+#login .left form .check{
+	margin: 0;
+	display: inline-block;
+	vertical-align: middle;
+}
+#login .left form .a{
+	color: #999;
+}
+#login .left form .aa{
+	color: #999;
+	margin-left: 204px;
+	cursor: pointer;
+}
+#login .left form .log{
+	width: 160px;
+	height: 42px;
+	display: block;
+	background: black;
+	text-align: center;
+	font: 14px/42px "微软雅黑";
+	color: white;
+	margin-top: 30px;
+	transition: all .5s ease;
+}
+#login .left form .log:hover{
+	background: rgb(213, 27, 81);
+}
+#login .left form .xi{
+	position: relative;
+	display: block;
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+#login .left form .xi .text{
+	display: inline-block;
+	width: 60px;
+	height: 20px;
+	background: white;
+	position: relative;
+	z-index: 3;
+}
+#login .left form .xian{
+	content: '';
+    width: 100%;
+    display: inline-block;
+    height: 1px;
+    background: #dbdbdb;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+#login .left .icon p{
+	margin-bottom: 10px;
+}
+#login .left .icon a{
+	display: inline-block;
+	width: 40px;
+	height: 65px;
+	margin-right: 20px;
+	font-size: 12px;
+	text-align: center;
+}
+#login .left .icon a i:nth-of-type(1){
+	width: 40px;
+	height: 40px;
+	background: url(../image/icon.png) no-repeat;
+	background-position: -162px -48px;
+	display: inline-block;
+}
+#login .left .icon a:nth-of-type(2) i{
+	width: 28px;
+	height: 32px;
+	background: url(../image/icon.png) no-repeat;
+	background-position: -265px 0;
+	display: inline-block;
+}
+#login .left .icon a:nth-of-type(3) i{
+	width: 41px;
+	height: 37px;
+	background: url(../image/icon.png) no-repeat;
+	background-position: -203px -138px;
+	display: inline-block;
+}
+#login .left .icon a:nth-of-type(4) i{
+	width: 40px;
+	height: 40px;
+	background: url(../image/icon.png) no-repeat;
+	background-position: -156px -111px;
+	display: inline-block;
+}
+#login .right{
+	float: right;
+	font-size: 14px;
+	color: black;
+}
+#login .right h1{
+	font-size: 28px;
+	margin-bottom: 20px;
+	font-weight: 500;
+}
+#login .right p{
+	margin-bottom: 30px;
+}
+#login .right .show{
+	width: 160px;
+	height: 196px;
+}
+#login .right .show li{
+	margin-bottom: 20px;
+	color: #999;
+}
+#login .right a{
+	width: 160px;
+	height: 42px;
+	display: block;
+	background: black;
+	text-align: center;
+	font: 14px/42px "微软雅黑";
+	color: white;
+	transition: all .5s ease;
+}
+#login .right a:hover{
+	background: rgb(213, 27, 81);
+}
+#bu{
+	height: 100%;
+	width: 100%;
+	background: rgba(0,0,0,.6);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	display: none;
+}

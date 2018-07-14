@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+body,div,ul,li,ol,dl,dt,dd,p,h1,h2,h3,h4,h5,h6,form,fieldset,legent,img{
+	margin:0;
+	padding:0;
+}
+fieldset,img{
+	border:none;
+}
+img{
+	display:block;
+}
+address,caption,cite,dfn,th,var,strong,h1,h2,h3,h4,h5,b{
+	font-weight:normal;
+}
+i,em{
+	font-style:normal;
+}
+li{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+input{
+	outline:none;
+}
+.alpha{display:none;_display:inline-block;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="url",sizingMethod="scale");width:value;height:value;
+}
+.ie6hidden{
+	_display:none;
+}
+
+
+
